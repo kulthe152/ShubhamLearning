@@ -10,6 +10,10 @@ public class Palindrome
 		int n = Integer.parseInt(br.readLine());
 		temp = n;
 		
+		public void addedMethod(){
+			System.out.println("Added business logic by another developer");
+		}
+		
 		while(n!=0)
 		{
 			r = n % 10;
